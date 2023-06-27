@@ -9,6 +9,6 @@ Console.Write(resultado);
 
 int Fatorial(int n)
 {
-        if (n == 0){return 1;}
+        if (n <= 0){return 1;}
     return n * Fatorial(n - 2);
 }
